@@ -1,0 +1,25 @@
+**/.vscode/
+
+#Data files
+*.tfrecord
+*.pyc
+*.pkl
+*.out
+*.pcd
+
+.DS_Store
+.idea
+
+#Build
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+
+**/build/
+**/eigen-3.3.7/
+**/libcarla-install/
+**/rpclib
+
+#Compressed files0
+*.zip
+*.tgz
